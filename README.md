@@ -33,12 +33,6 @@ A lightweight, terminal-based image viewer written in C++. This program uses ASC
 
 - `<image_file>`: Path to the image file you want to view. The program supports common image formats like `.jpg`, `.png`, `.bmp`, etc.
 
-## Example
-To view an image named `example.jpg`:
-```bash
-./img-sh example.jpg
-```
-
 The output will display the image rendered in full color within your terminal, scaled to fit the terminal's size.
 
 ## How It Works
