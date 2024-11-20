@@ -17,7 +17,7 @@ A lightweight, terminal-based image viewer written in C++. This program uses ASC
 
 1. Clone the repository or download the source files.
    ```bash
-   git clone https://github.com/your-repo/term-img-viewer.git
+   git clone https://github.com/igleen/term-img-viewer.git
    cd term-img-viewer
    ```
 
