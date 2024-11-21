@@ -84,6 +84,22 @@ int main(int argc, char** argv) {
         return 1;
     }
 
+    if (argc == 2) {
+        std::string arg = argv[1];
+        if (arg == "-v" || arg == "--version") {
+            std::cout << "img-sh v0.1\n";
+            return 0;
+        }
+        if (arg == "-h" || arg == "--help") {
+            std::cout << "Terminal Image Viewer v0.1\n";
+            std::cout << "Usage: " << argv[0] << " <image_file>\n";
+            std::cout << "Options:\n";
+            std::cout << "  -h, --help     Display this help message\n";
+            std::cout << "  -v, --version  Display version information\n";
+            return 0;
+        }
+    }
+
     displayImageAsColor(argv[1]);
     return 0;
 }
